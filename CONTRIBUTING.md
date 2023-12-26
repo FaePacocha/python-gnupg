@@ -1,4 +1,4 @@
-# Contributing to dalek-rangeproofs
+* Contributing to dalek-rangeproofs
 
 If you have questions, feature requests, or comments, please feel free to join
 our #python-gnupg IRC channel on [Freenode](https://freenode.net/).
@@ -16,3 +16,4 @@ can assign it to you!
 
 Please see our
 [Code of Conduct](https://github.com/isislovecruft/python-gnupg/blob/develop/CODE_OF_CONDUCT.md).
+ 
