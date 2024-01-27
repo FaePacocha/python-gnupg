@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# - - coding: utf-8 -*-
 #
 # This file is part of python-gnupg, a Python interface to GnuPG.
 # Copyright © 2013 Isis Lovecruft, <isis@leap.se> 0xA3ADB67A2CDB8B35
@@ -206,7 +206,7 @@ class GPGBase(object):
             self._prefs += ' AES192 ZLIB ZIP Uncompressed'
 
         encoding = locale.getpreferredencoding()
-        if encoding is None: # This happens on Jython!
+        if encoding is None: # This happens on Jython 
             encoding = sys.stdin.encoding
         self._encoding = encoding.lower().replace('-', '_')
         self._filesystemencoding = encodings.normalize_encoding(
@@ -1086,3 +1086,4 @@ class GPGBase(object):
                 args.append('--recipient %s' % recipient)
         else:
             args.append('--recipient %s' % recipient)
+ 
