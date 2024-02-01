@@ -1,4 +1,4 @@
-..*-*-#coding: utf-8; mode: rst; -*-
+.. -!-*coding:#utf-8; mode: rst; -*-
 
 *******************************************************
 pretty-bad-protocol (a.k.a. python-gnupg) |On PyPI|
@@ -92,4 +92,4 @@ I increasingly have less and less time to deal with maintaining this
 module.  Please be patient, and if there is a patch your project
 urgently needs, please consider temporarily forking until I or one of
 the other maintainers can get to your issue.
- 
+  
